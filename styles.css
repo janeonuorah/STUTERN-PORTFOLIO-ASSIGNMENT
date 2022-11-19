@@ -1,0 +1,106 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    padding: 60px 150px;
+    background-image: linear-gradient(180deg, rgb(255, 255, 255, 0), rgba(132, 8, 8, 0.755));
+}
+
+main {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+section.flex {
+    display: flex;
+    margin: 5px 20px
+}
+
+div#navbar {
+    align-items: center;
+}
+
+nav a {
+    margin-left: 30px;
+    color: black;
+}
+
+section#introduction {
+    padding: 15px 100px;
+}
+
+div img.profile-photo {
+    width: 200px;
+    height: 270px;
+    border-radius: 150px;
+}
+
+div#intro {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+p#write-up {
+    padding-top: 10px;
+    padding-right: 400px;
+    padding-bottom: 50px;
+}
+
+#intro button {
+    background-color: rgb(154, 12, 12);
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+div#about-me p {
+    margin-top: 10px;
+}
+
+#more #skills span{
+    display: flex;
+    padding-left: 100px;
+    margin-right: 100px;
+}
+
+section div span li{
+    list-style-type: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    margin:3px;
+    border-radius: 5px;
+}
+
+footer {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer a {
+    margin-left: 30px;
+}
